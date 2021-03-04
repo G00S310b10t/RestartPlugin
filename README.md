@@ -1,6 +1,6 @@
 # RestartPlugin
 Restart notifications just like the minecraft server 2b2t
-
+changed around to work for 10b10t.org
 Completely configurable messages
 
 ```
