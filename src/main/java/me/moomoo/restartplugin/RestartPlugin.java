@@ -47,7 +47,7 @@ public class RestartPlugin extends JavaPlugin implements Listener {
         }, initalDelay, TimeUnit.DAYS.toSeconds(1), TimeUnit.SECONDS);
     }
 
-    public void restart() throws InterruptedException {
+    public void stop() throws InterruptedException {
         String s = translate(get("string"));
         b(translate(s + " 15" + get("minutestring")));
         sleep(300000);
