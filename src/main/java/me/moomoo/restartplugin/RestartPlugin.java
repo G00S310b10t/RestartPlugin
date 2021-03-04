@@ -36,7 +36,7 @@ public class RestartPlugin extends JavaPlugin implements Listener {
         scheduler.scheduleAtFixedRate(() -> {
             Thread t = new Thread(() -> {
                 try {
-                    restart();
+                    stop();
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
